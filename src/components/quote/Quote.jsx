@@ -13,9 +13,9 @@ function Quote({ data }) {
 
 Quote.propTypes = {
 	data: PropTypes.shape({
-		quote: PropTypes.string.isRequired,
-		character: PropTypes.string.isRequired,
-		image: PropTypes.string.isRequired,
+		quote: PropTypes.string,
+		character: PropTypes.string,
+		image: PropTypes.string,
 		characterDirection: PropTypes.string
 	}).isRequired
 }
